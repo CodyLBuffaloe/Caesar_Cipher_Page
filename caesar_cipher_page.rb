@@ -1,5 +1,4 @@
 require 'sinatra'
-if development? require 'sinatra/reloader'
 
 get '/' do
   raw_text = params["raw"]
